@@ -3,21 +3,37 @@ body{
     text-align: center;
     font-family: 'Merriweather', serif;
 }
+hr {
+    margin: 0;
+    border: 1px solid gray;
+}
 
+p {
+    padding: 2px;
+}
 .top-container {
     background-color: #D3E4CD;
     position: relative; 
     padding-top: 100px;
 }
-.middle-container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+.profile {
+    background-color: #E2C2B9;
+    padding: 50px;
 }
+
+.skills {
+    background-color: #99A799;
+    padding: 40px;
+}
+
 .bottom-container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+    background-color: #F2DDC1;
+    padding: 10px; 
+}
+
+.contact-me {
+    background-color: #D3E4CD;
+    padding: 30px;
 }
 
 h1 {
@@ -29,30 +45,66 @@ h1 {
 
 .tagline {
     margin-top: 0;
-    padding:: 0;
+    padding: 0;
     font-size: 20px;
 }
 h2 {
-    font-family: 'Montserrat', sans-serif;  
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin: 0; 
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 5px;
 }
 
 .bottom-cloud {
- position: absolute;
- left: 300px;
+ position: relative;
+ left: 55px;
  bottom: 300px;
 }
 
 .top-cloud {
     position: absolute;
-    right: 300px;
+    right: 200px;
     top: 50px;
 }
-
+.mountain {
+    position: relative;
+    right: 60px;
+    top: 4px;
+}
 .bw-portrait {
     height: 300px;
     width: auto;
+    padding-bottom: 50px;
+}
+
+.computer-icon {
+    height: 200px;
+    width: auto;
+    border-radius: 100%;
+    padding: 15px;
+}
+
+.footer-link {
+    padding-left: 8px;
+}
+
+a:link {
+    text-decoration: none;
+    color: #e98062;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: aquamarine;
 }
