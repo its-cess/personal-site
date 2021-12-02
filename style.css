@@ -26,7 +26,9 @@ p {
 
 .skill-row {
     width: 50%;
-    margin: auto;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
 
 .bottom-container {
@@ -89,16 +91,18 @@ h3 {
 }
 
 .html-image {
-    height: 200px;
-    width: auto;
+    width: 35%;
     border-radius: 100%;
     padding: 15px;
+    float: left;
+    margin-right: 30px;
 }
 
 .css-image {
-    height: 200px;
-    width: auto;
+    width: 40%;
     padding: 15px;
+    float: right;
+    margin-left: 30px;
 }
 .footer-link {
     padding-left: 8px;
